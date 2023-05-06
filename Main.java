@@ -74,11 +74,10 @@ public class Main {
 
 
     public static ArrayList user(int input){
-       // Scanner s = new Scanner(System.in);
+
         ArrayList list = new ArrayList();
 
         int row = 0, column = 0;
-       // int input = s.nextInt();
         switch (input){
             case 1:
                 list.add(0);
@@ -117,7 +116,7 @@ public class Main {
                 list.add(2);
                 break;
             default:
-                System.out.println("please Enter from 1-9:");
+                System.out.println("Please Enter from 1-9:");
 
 
         }
@@ -125,7 +124,7 @@ public class Main {
     }
 
     public static ArrayList com(int input){
-//        Scanner s = new Scanner(System.in);
+        
         ArrayList list = new ArrayList();
 
         int row = 0, column = 0;
